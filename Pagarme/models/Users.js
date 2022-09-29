@@ -43,7 +43,7 @@ const Users = db.define('users',{
         limited:11,
         allowNull: false,
     },
-    CVV: {
+    cvv: {
         type: Sequelize.INTEGER,
         limited:3,
         allowNull: false,
